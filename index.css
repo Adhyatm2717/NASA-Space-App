@@ -1,0 +1,73 @@
+body {
+    background-color: black;
+    color: white;
+    background-image: url('stars.png'); /* Path to your image */
+    background-size: cover; /* Ensures the image covers the entire body */
+    background-attachment: fixed; /* Keeps the background static when scrolling */
+    background-position: center center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+#heading {
+    color: white;
+    letter-spacing: 10px;
+    text-align: center;
+    font-size:40px;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5); 
+    margin-top: 50px;
+
+
+}
+
+
+#mars {
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    margin-top: 100px;
+}
+#team {
+    margin: 40px;
+    padding: 45px;
+    text-align: left;
+}
+#image{
+    height: 175px;
+    width: 175px;
+    background-image: url("curved-arrow-with-broken-line.png");
+    background-size: cover;
+}
+nav {
+    background-color: #111111;
+    cursor: pointer;
+    border:1px solid black;
+} 
+
+nav {
+    background-color: #111111;
+    border-bottom: 1px solid #333; /* Use border-bottom for a subtle separation */
+    cursor: pointer;
+    padding: 0; /* Control spacing via list/links, not the nav tag */
+}
+
+nav ul {
+    list-style-type: none; 
+    display: flex; /* Arranges list items horizontally */
+    justify-content: center; /* Centers the navigation links */
+    padding: 0;
+    margin: 0;
+}
+
+/* Styles for the list items (<li>) */
+nav ul li a {
+    text-decoration: none; 
+    padding: 20px 100px; /* Reduced padding on top/bottom for a standard bar */
+    color: gray;
+    display: block; /* Makes the entire padding area clickable */
+}
+
+nav ul li a:hover {
+    color: white; /* Highlight on hover */
+    background-color: #222222;}
+
+
+
